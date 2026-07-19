@@ -7,7 +7,8 @@ import seaborn as sns
 st.title("Student Performance EDA Dashboard")
 
 # Load dataset
-df = pd.read_csv("dataset/StudentsPerformance.csv")
+# Load dataset
+df = pd.read_csv("StudentsPerformance.csv")
 # Dataset Preview
 st.header("Dataset Preview")
 st.dataframe(df.head())
